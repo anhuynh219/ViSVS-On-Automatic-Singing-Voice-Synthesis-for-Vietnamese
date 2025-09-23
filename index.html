@@ -720,12 +720,12 @@
               formatted;
             document.querySelector(
               "#exampleModalLabel"
-            ).textContent = `Thông tin của Input: ${index}`;
+            ).textContent = `Input: ${index}`;
           } else {
             // Xử lý lỗi nếu không lấy được dữ liệu
             document.querySelector("#json-display").textContent =
-              "Không thể tải dữ liệu.";
-            document.querySelector("#exampleModalLabel").textContent = "Lỗi";
+              "Can't load data.";
+            document.querySelector("#exampleModalLabel").textContent = "Error";
           }
         });
       });
